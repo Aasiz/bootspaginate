@@ -7,7 +7,7 @@ Place BootsPaginate.groovy file in your grails-app\taglib\bootspaginate\ directo
 
 <pre><code>
 &lt;ul class=&quot;pagination&quot; &gt;
-&lt;boots:paginate total=&quot;${projectInstanceCount ?: 0}&quot; /&gt;
-                &lt;/ul&gt;</code></pre>
+                &lt;boots:paginate total=&quot;${projectInstanceCount ?: 0}&quot; /&gt;
+&lt;/ul&gt;</code></pre>
 Cheers ;)
 
