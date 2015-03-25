@@ -37,7 +37,7 @@ class Bootspaginate{
      * @attr mapping The named URL mapping to use to rewrite the link
      * @attr fragment The link fragment (often called anchor tag) to use
      */
-    Closure newPaginate = { Map attrsMap ->
+    Closure paginate = { Map attrsMap ->
         TypeConvertingMap attrs = (TypeConvertingMap)attrsMap
         def writer = out
         if (attrs.total == null) {
