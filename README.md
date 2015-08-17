@@ -1,5 +1,5 @@
 # bootspaginate
-Grails Bootstrap paginate tab library
+Grails Bootstrap paginate tag library
 # Setup
 Place BootsPaginate.groovy file in your grails-app\taglib\bootspaginate\ directory
 
